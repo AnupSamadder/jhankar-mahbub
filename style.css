@@ -32,7 +32,28 @@ section {
     background-repeat: no-repeat;
 }
 .dream-big {
-    background-image: url(images/dream-bg.png);
+    
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-div {
+    width: 40%;
+    padding: 4%;
+    margin : 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+#full-stack {
+    border-left: 10px solid blue;
+}
+#baby-dev {
+    border-left: 10px solid tomato;
+}
+footer p {
+    text-align: center;
 }
